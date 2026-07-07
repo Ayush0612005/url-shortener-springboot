@@ -26,6 +26,53 @@ This project allows users to register, authenticate, shorten URLs, manage them, 
 - Unit Testing with JUnit & Mockito
 
 ---
+## 📸 Project Screenshots
+
+![Banner](screenshots/urlshortenerapi.png)
+
+### 🏠 Swagger UI
+
+The project includes interactive API documentation using **Swagger OpenAPI**, allowing every endpoint to be tested directly from the browser.
+
+![Swagger UI](screenshots/swagger-home.png)
+
+---
+
+### 👤 User Registration
+
+Register a new user with validation and secure password encryption using BCrypt.
+
+![Register API](screenshots/register-api.png)
+
+---
+
+### 🔐 User Authentication
+
+Login using email and password to receive a JWT access token for authenticated requests.
+
+![Login API](screenshots/login-api.png)
+
+---
+
+### 🗄 Database (MySQL)
+
+Stored URL records including original URL, generated Base62 short code, click count, timestamps, expiration date, and user association.
+
+![MySQL URLs](screenshots/mysql-urls.png)
+
+---
+
+## 🏗 System Architecture
+
+The following diagram illustrates the overall architecture of the application.
+
+- Spring Boot REST API
+- JWT Authentication
+- Redis Cache
+- MySQL Database
+- Base62 URL Generation
+
+---
 
 ## 🛠 Tech Stack
 

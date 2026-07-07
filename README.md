@@ -26,39 +26,43 @@ This project allows users to register, authenticate, shorten URLs, manage them, 
 - Unit Testing with JUnit & Mockito
 
 ---
-## 📸 Project Screenshots
+# 📸 Project Screenshots
 
-![Banner](screenshots/urlshortenerapi.png)
+## 🚀 Project Banner
 
-### 🏠 Swagger UI
-
-The project includes interactive API documentation using **Swagger OpenAPI**, allowing every endpoint to be tested directly from the browser.
-
-![Swagger UI](screenshots/swagger-home.png)
+![Banner](./screenshots/urlshortenerapi.drawio.png)
 
 ---
 
-### 👤 User Registration
+## 🏠 Swagger UI
 
-Register a new user with validation and secure password encryption using BCrypt.
+Interactive API documentation generated using **Swagger OpenAPI**.
 
-![Register API](screenshots/register-api.png)
-
----
-
-### 🔐 User Authentication
-
-Login using email and password to receive a JWT access token for authenticated requests.
-
-![Login API](screenshots/login-api.png)
+![Swagger UI](./screenshots/swagger-home.png)
 
 ---
 
-### 🗄 Database (MySQL)
+## 👤 User Registration
 
-Stored URL records including original URL, generated Base62 short code, click count, timestamps, expiration date, and user association.
+Create a new account with validation and secure password encryption using BCrypt.
 
-![MySQL URLs](screenshots/mysql-urls.png)
+![Register API](./screenshots/register-api.png)
+
+---
+
+## 🔐 User Authentication
+
+Authenticate users using JWT and receive a secure access token.
+
+![Login API](./screenshots/login-api.png)
+
+---
+
+## 🗄 Database (MySQL)
+
+Stored URL records including original URL, Base62 short code, click count, timestamps, expiration date and user ownership.
+
+![MySQL](./screenshots/mysql-urls.png)
 
 ---
 

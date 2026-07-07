@@ -121,6 +121,17 @@ Cache Strategy:
 - Return URL
 
 ---
+Client
+   │
+   ▼
+Spring Boot REST API
+   │
+   ├── JWT Authentication
+   │
+   ├── Redis Cache
+   │
+   └── MySQL Database
+   ---
 
 ## 📊 Analytics
 
